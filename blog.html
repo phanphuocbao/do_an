@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assest/main.css">
+    <link rel="stylesheet" href="./login-animation/dky.css">
+    <link rel="stylesheet" href="./assest/font/themify-icons/themify-icons.css">
+    <script src="https://kit.fontawesome.com/63cf0a5507.js" crossorigin="anonymous"></script>
+    <title>B Ogani | Blog</title>
+</head>
+<body>
+    <script>
+        const menu =document.querySelector('#h1');
+        const all = document.querySelector('#h');
+
+        all.onclick = function(){
+            menu.classList.toggle('hide');
+        }
+    </script>
+    <div id="container">
+        <div id="header1">
+            Miễn phí vận chuyển với đơn hàng trên 99k!
+        </div>
+        <div id="header2">
+            <ul>
+                <li><a href="#">FaceBook </a></li>
+                <li><a href="./dky.html">| Login</a></li>
+            </ul>
+        </div>
+        <div id="header3">
+            <a href="./index.html"><img src="./assest/img/logo.png" alt=""></a>
+        </div>
+        <div id="header-menu">
+            <!-- begin nav -->
+            <ul id="nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li>
+                    <a href="#">
+                        Pages
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="./shop-details.html">Gift</a></li>
+                        <li><a href="">Shoping Cart</a></li>
+                        <li><a href="./check-out.html">Check Out</a></li>
+                        <li><a href="">Blog Details</a></li>
+                    </ul>
+                </li>
+                <li><a href="./blog.html" class="active">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <!-- end nav -->
+            <!-- Begin heart icon ... -->
+            <div class="heart-and-bag-btn">
+                <i class="heart-icon ti-heart"></i>
+                <span class="number-icon">1</span>
+                <i class="bag-icon ti-bag"></i>
+                <span class="number-icon">1</span>
+                <span class="text-icon">item : 3.000.000 vnđ</span>
+            </div>
+            <!-- End heart icon ... -->
+        </div>
+        <!-- Begin menu and banner -->
+        <div id="categories">
+            <div class="left-categories">
+                <div class="header-left-categories" id="h">
+                    <i class="icon-categories ti-menu"></i>
+                    <span>Tất Cả </span>
+                </div>
+                <ul class="all-list" id="h1">
+                    <li><a href="#">Thịt Tươi Sống</a></li>
+                    <li><a href="#">Rau Củ</a></li>
+                    <li><a href="#">Quà Tặng</a></li>
+                    <li><a href="#">Trái Cây</a></li>
+                    <li><a href="#">Đồ Biển</a></li>
+                    <li><a href="#">Thức Ăn Nhanh</a></li>
+                </ul>
+            </div>
+            <div class="right-categories">
+                <div class="search-categories">
+                    <div class="all-categories"> 
+                        Tất cả danh mục
+                        <i class="all-icon ti-angle-down"></i>
+                        <input class="input-categories" type="text" placeholder="Bạn Cần Gì?">
+                    </div>
+                    <div class="search-btn">
+                        <div>
+                            <button class="button" type="submit">Tìm Kiếm</button>
+                        </div>
+                        <div class="phone">
+                            <i class="phone-icon fa-solid fa-phone"></i>
+                        </div>
+                        <div class="phone">
+                            <span class="tele-phone">+84 999.999.999</span>
+                            <span class="tele-phone-2"> 24/7</span>
+                        </div>
+                    </div>
+                </div>
+               
+
+            </div>
+        </div>
+        <!-- banner -->
+        <div id="banner">
+            <div class="text-banner">
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;
+                    &ensp;&ensp; <!-- tạo khoản cách -->
+                     Blog</p>
+                <div class="text-banner2">
+                    <span>
+                         Home - Blog
+                    </span>
+                </div>
+            </div>
+        </div>
+        <section id="blog-spad">
+            <div class="container-blog">
+                <div class="row">
+                    <div class="row-L">
+                        <div class="blog-sidebar">
+                            <div class="blog-sidebar-search">
+                                <form action="#">
+                                    <input type="text" placeholder=" Search...">
+                                    <button type="submit">
+                                        <span class="icon-search">
+                                            <i class="ti-search"></i>
+                                        </span>
+                                    </button>
+                                </form>
+                            </div>
+                            <div class="blog-sidebar-item">
+                                <h4>Thể Loại</h4>
+                                <ul>
+                                    <li><a href="#">Tất Cả</a></li>
+                                    <li><a href="#">Làm Đẹp (20)</a></li>
+                                    <li><a href="#">Thức Ăn (5)</a></li>
+                                    <li><a href="#">Phong Cách Sống (9)</a></li>
+                                    <li><a href="#">Du Lịch (10)</a></li>
+                                </ul>
+                            </div>
+                            <div class="blog-sidebar-item">
+                                <h4>Tin Tức Gần Đây</h4>
+                                <div class="blog-sidebar-recent">
+                                    <a href="#" class="blog-sidebar-recent-item">
+                                        <div class="blog-sidebar-recent-item-pic">
+                                            <img src="./assest/img/blog/sidebar/sr-1.jpg" alt="">
+                                        </div>
+                                        <div class="blog-sidebar-recent-item-text">
+                                            <h6>
+                                                9 Loại Rau
+                                                <br>
+                                                Bảo Vệ Gan  
+                                            </h6>
+                                            <span>20 Tháng 06, 2022</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="blog-sidebar-recent-item">
+                                        <div class="blog-sidebar-recent-item-pic">
+                                            <img src="./assest/img/blog/sidebar/sr-2.jpg" alt="">
+                                        </div>
+                                        <div class="blog-sidebar-recent-item-text">
+                                            <h6>
+                                                Lời Khuyên Cho Bạn 
+                                                <br>
+                                                Để Cân Bằng Dinh Dưỡng
+                                                <br>
+                                                Bữa Ăn Hằng Ngày   
+                                            </h6>
+                                            <span>20 Tháng 06, 2022</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="blog-sidebar-recent-item">
+                                        <div class="blog-sidebar-recent-item-pic">
+                                            <img src="./assest/img/blog/sidebar/sr-3.jpg" alt="">
+                                        </div>
+                                        <div class="blog-sidebar-recent-item-text">
+                                            <h6>
+                                                4 Nguyên Tắc Giúp Bạn
+                                                <br>
+                                                Giảm Cân Với Rau Củ  
+                                            </h6>
+                                            <span>20 Tháng 06, 2022</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="blog-sidebar-item">
+                                <h4>Tìm Kiếm</h4>
+                                <div class="blog-sidebar-item-tags">
+                                    <a href="#">Táo </a>
+                                    <a href="#">Làm Đẹp</a>
+                                    <a href="#">Rau Củ</a>
+                                    <a href="#">Trái Cây</a>
+                                    <a href="#">Healthy Food</a>
+                                    <a href="#">Phong Cách Sống</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row-R">
+                        <div class="row">
+                            <div class="row-R-item">
+                                <div class="blog-item">
+                                    <div class="blog-item-pic">
+                                        <img src="./assest/img/blog/blog-1.jpg" alt="">
+                                    </div>
+                                    <div class="blog-item-text">
+                                        <ul>
+                                            <li>
+                                                <i class="ti ti-calendar"></i>
+                                                24 Tháng 05, 2022
+                                            </li>
+                                            <li>
+                                                <i class="ti ti-comment"></i>
+                                                5
+                                            </li>
+                                        </ul>
+                                        <h5><a href="#">6 ways to prepare breakfast for 30</a></h5>
+                                        <a href="#" class="blog-btn">
+                                            Đọc Thêm
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-R-item">
+                                <div class="blog-item">
+                                    <div class="blog-item-pic">
+                                        <img src="./assest/img/blog/blog-2.jpg" alt="">
+                                    </div>
+                                    <div class="blog-item-text">
+                                        <ul>
+                                            <li>
+                                                <i class="ti ti-calendar"></i>
+                                                24 Tháng 05, 2022
+                                            </li>
+                                            <li>
+                                                <i class="ti ti-comment"></i>
+                                                5
+                                            </li>
+                                        </ul>
+                                        <h5>Visit the clean farm in the US</h5>
+                                        <p></p>
+                                        <a href="#" class="blog-btn">
+                                            Đọc Thêm
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-R-item">
+                                <div class="blog-item">
+                                    <div class="blog-item-pic">
+                                        <img src="./assest/img/blog/blog-3.jpg" alt="">
+                                    </div>
+                                    <div class="blog-item-text">
+                                        <ul>
+                                            <li>
+                                                <i class="ti ti-calendar"></i>
+                                                24 Tháng 05, 2022
+                                            </li>
+                                            <li>
+                                                <i class="ti ti-comment"></i>
+                                                5
+                                            </li>
+                                        </ul>
+                                        <h5>Cooking tips make cooking simple</h5>
+                                        <p></p>
+                                        <a href="#" class="blog-btn">
+                                            Đọc Thêm
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-R-item">
+                                <div class="blog-item">
+                                    <div class="blog-item-pic">
+                                        <img src="./assest/img/blog/blog-4.jpg" alt="">
+                                    </div>
+                                    <div class="blog-item-text">
+                                        <ul>
+                                            <li>
+                                                <i class="ti ti-calendar"></i>
+                                                24 Tháng 05, 2022
+                                            </li>
+                                            <li>
+                                                <i class="ti ti-comment"></i>
+                                                5
+                                            </li>
+                                        </ul>
+                                        <h5>Cooking tips make cooking simple</h5>
+                                        <p></p>
+                                        <a href="#" class="blog-btn">
+                                            Đọc Thêm
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-R-item">
+                                <div class="blog-item">
+                                    <div class="blog-item-pic">
+                                        <img src="./assest/img/blog/blog-5.jpg" alt="">
+                                    </div>
+                                    <div class="blog-item-text">
+                                        <ul>
+                                            <li>
+                                                <i class="ti ti-calendar"></i>
+                                                24 Tháng 05, 2022
+                                            </li>
+                                            <li>
+                                                <i class="ti ti-comment"></i>
+                                                5
+                                            </li>
+                                        </ul>
+                                        <h5>Cooking tips make cooking simple</h5>
+                                        <p></p>
+                                        <a href="#" class="blog-btn">
+                                            Đọc Thêm
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-R-item">
+                                <div class="blog-item">
+                                    <div class="blog-item-pic">
+                                        <img src="./assest/img/blog/blog-6.jpg" alt="">
+                                    </div>
+                                    <div class="blog-item-text">
+                                        <ul>
+                                            <li>
+                                                <i class="ti ti-calendar"></i>
+                                                24 Tháng 05, 2022
+                                            </li>
+                                            <li>
+                                                <i class="ti ti-comment"></i>
+                                                5
+                                            </li>
+                                        </ul>
+                                        <h5>Cooking tips make cooking simple</h5>
+                                        <p></p>
+                                        <a href="#" class="blog-btn">
+                                            Đọc Thêm
+                                            <i class="ti-arrow-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>&nbsp;
+                    &nbsp;<span><img src="./assest/img/logo.png" alt=""></span></h3>
+
+				<p class="footer-links">
+					<a href="./index.html" class="link-1">Home</a>
+					
+					<a href="./blog.html">Blog</a>
+				
+					<a href="#">Shop</a>
+				
+					<a href="#">About</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="./contact.html">Contact</a>
+				</p>
+
+				<p class="footer-company-name">
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;&nbsp;
+                    B Ogani © 2022</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>70 Nguyễn Huệ</span> Vĩnh Ninh, Thừa Thiên-Huế, Việt Nam</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+84 999.999.999</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:Baopp@students.hueic.edu.vn">Baopp@students.hueic.edu.vn</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<!-- <p class="footer-company-about">
+					<span>About the B Ogani</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p> -->
+
+				<div class="footer-icons">
+
+					<a href="https://fb.com"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/phanphuocbao"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+        <!-- Footer -->
+    </div>
+</body>
+</html>
